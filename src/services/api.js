@@ -1,4 +1,6 @@
-const API_URL = 'http://localhost:3001/books';
+const API_URL = import.meta.env.PROD 
+  ? 'https://my-json-server.typicode.com/vaibhavgawali7499/MandaliDeals-new/books'
+  : 'http://localhost:3001/books';
 
 export const getBooks = async () => {
   const response = await fetch(API_URL);
