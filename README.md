@@ -6,6 +6,11 @@ The application integrates with a local mock database API via `json-server` to p
 
 ---
 
+## 🌍 Live Demo
+**[Live Application URL](https://book-management-system-eight-dusky.vercel.app/)**
+
+---
+
 ## ✨ Features
 
 - **Full CRUD Support**: Create new books, read your library collection, update existing entries, and delete books.
